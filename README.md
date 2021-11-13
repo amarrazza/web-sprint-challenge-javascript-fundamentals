@@ -25,15 +25,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-
+.map creates a new array with the results you specify in the function
+.reduce accumulates values within a specified array and returns a single value
+.filter creates a new array that only returns what is considered true from the conditional you make in the function
 2. Explain the difference between a callback and a higher order function.
-
+higher order function receives a callback function as a parameter
+callback function is used as an argument for a higher order function
 3. Explain what a closure is.
-
+closure is when a nested function reaches into an outer function a grab a value defined in the outer function.
 4. Describe the four principles of the 'this' keyword.
-
+window binding - if this isn't given any context, it will return the global object in node
+implicit binding - when a method is invoked on an object, what's left to the dot is what 'this' is being binded too
+explicit binding - using .call, .apply or .bind to tell 'this' what to bind to
+new binding - when invoking a function with 'New', 'this' gets binded to the new object being constructed
 5. Why do we need super() in an extended class?
-
+to inherit the attributes from the parent class
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
